@@ -15,3 +15,8 @@ Into this webpage and it will generate a gl.h and gl.c file for you to download,
 You can drag and drop either the files themselves or the raw text from the file. Both will work.
 
 Links to the generated files will then be generated which you can download. This works on Chrome but not currently on Edge.
+
+
+## Example
+
+http://welford.github.io/glue/
