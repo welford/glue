@@ -16,6 +16,16 @@ You can drag and drop either the files themselves or the raw text from the file.
 
 Links to the generated files will then be generated which you can download. This works on Chrome but not currently on Edge.
 
+## API
+
+There are just two functions in the generated files.
+
+void InitialiseOpenGLFunctionPointers(void)
+
+void InitialiseWGLFunctionPointers(void)
+
+Once you have called wglMakeCurrent, you can call the above to set the various OpenGL/WGL extension pointers.
+
 
 ## Example
 
